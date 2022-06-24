@@ -1,5 +1,5 @@
-{}
- "volto-matomo": {
+{
+  "volto-matomo": {
     "url": "git@github.com:eea/volto-matomo.git",
     "https": "https://github.com/eea/volto-matomo.git",
     "package": "@eeacms/volto-matomo",
