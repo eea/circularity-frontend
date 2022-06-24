@@ -38,7 +38,10 @@
   },
   "private": false,
   "workspaces": [],
-  "addons": ["@eeacms/volto-eea-kitkat"],
+  "addons": [
+      "@eeacms/volto-eea-kitkat",
+      "@eeacms/volto-sustainability-theme"
+  ],
   "jest": {
     "modulePathIgnorePatterns": [
       "api"
