@@ -7,7 +7,7 @@ pipeline {
     template = "templates/circularity-frontend"
     dockerImage = ''
     tagName = ''
-    SONARQUBE_TAG = 'circularity-frontend.eionet.europa.eu'
+    SONARQUBE_TAG = 'circularity.eea.europa.eu'
   }
 
   agent any
