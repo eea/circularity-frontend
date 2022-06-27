@@ -4,7 +4,7 @@ pipeline {
     RANCHER_ENVID = ""
     GIT_NAME = "circularity-frontend"
     registry = "eeacms/circularity-frontend"
-    template = "templates/circularity-frontend"
+    template = "templates/volto-circularity"
     dockerImage = ''
     tagName = ''
     SONARQUBE_TAG = 'circularity.eea.europa.eu'
