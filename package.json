@@ -128,7 +128,8 @@
   },
   "dependencies": {
     "@plone/volto": "15.12.1",
-    "@eeacms/volto-eea-kitkat": "*"
+    "@eeacms/volto-eea-kitkat": "*",
+    "@eeacms/volto-sustainability-theme": "*"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
