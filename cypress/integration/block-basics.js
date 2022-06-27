@@ -1,5 +1,5 @@
 import { setupBeforeEach, tearDownAfterEach } from '../support';
-import { changePageTitle, addBlock, save } from '../helpers';
+import { changePageTitle, save } from '../helpers';
 
 describe('Blocks Tests', () => {
   beforeEach(setupBeforeEach);
