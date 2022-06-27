@@ -221,5 +221,12 @@
     "package": "@eeacms/volto-sustainability-theme",
     "branch": "develop",
     "path": "src"
+  },
+  "volto-circularity-policy": {
+    "url": "git@github.com:eea/volto-circularity-policy.git",
+    "https": "https://github.com/eea/volto-circularity-policy.git",
+    "package": "@eeacms/volto-circularity-policy",
+    "branch": "develop",
+    "path": "src"
   }
 }
