@@ -9,7 +9,7 @@ describe('Blocks Tests', () => {
     // Change page title
     changePageTitle('My Add-on Page');
     // Add block
-    addBlock('Common blocks', 'common_blocks', 'image');
+
     cy.get('.block.inner.text').type('My Add-on Page');
 
     // Save
