@@ -1,19 +1,11 @@
-import '@testing-library/cypress/add-commands';
+/* eslint no-console: ["error", { allow: ["log"] }] */
 
 // --- AUTOLOGIN -------------------------------------------------------------
 Cypress.Commands.add('autologin', () => {
   let api_url, user, password;
-  if (Cypress.env('API') === 'guillotina') {
-    api_url = 'http://localhost:8081/db/web';
-    user = 'admin';
-    password = 'admin';
-  } else {
-    api_url = `http://${
-      Cypress.env('BACKEND_HOST') || 'localhost'
-    }:55001/plone`;
-    user = 'admin';
-    password = 'secret';
-  }
+  api_url = Cypress.env('API_PATH') || 'http://localhost:8080/Plone';
+  user = 'admin';
+  password = 'admin';
 
   return cy
     .request({
@@ -36,21 +28,11 @@ Cypress.Commands.add(
     allow_discussion = false,
   }) => {
     let api_url, auth;
-    if (Cypress.env('API') === 'guillotina') {
-      api_url = 'http://localhost:8081/db/web';
-      auth = {
-        user: 'root',
-        pass: 'root',
-      };
-    } else {
-      api_url = `http://${
-        Cypress.env('BACKEND_HOST') || 'localhost'
-      }:55001/plone`;
-      auth = {
-        user: 'admin',
-        pass: 'secret',
-      };
-    }
+    api_url = Cypress.env('API_PATH') || 'http://localhost:8080/Plone';
+    auth = {
+      user: 'admin',
+      pass: 'admin',
+    };
     if (contentType === 'File') {
       return cy.request({
         method: 'POST',
@@ -143,6 +125,27 @@ Cypress.Commands.add(
   },
 );
 
+// --- REMOVE CONTENT --------------------------------------------------------
+Cypress.Commands.add('removeContent', (path) => {
+  let api_url, auth;
+  api_url = Cypress.env('API_PATH') || 'http://localhost:8080/Plone';
+  auth = {
+    user: 'admin',
+    pass: 'admin',
+  };
+  return cy
+    .request({
+      method: 'DELETE',
+      url: `${api_url}/${path}`,
+      headers: {
+        Accept: 'application/json',
+      },
+      auth: auth,
+      body: {},
+    })
+    .then(() => console.log(`${path} removed`));
+});
+
 // --- SET WORKFLOW ----------------------------------------------------------
 Cypress.Commands.add(
   'setWorkflow',
@@ -158,12 +161,10 @@ Cypress.Commands.add(
     include_children = true,
   }) => {
     let api_url, auth;
-    api_url = `http://${
-      Cypress.env('BACKEND_HOST') || 'localhost'
-    }:55001/plone`;
+    api_url = Cypress.env('API_PATH') || 'http://localhost:8080/Plone';
     auth = {
       user: 'admin',
-      pass: 'secret',
+      pass: 'admin',
     };
     return cy.request({
       method: 'POST',
@@ -186,10 +187,9 @@ Cypress.Commands.add(
   },
 );
 
+// --- waitForResourceToLoad ----------------------------------------------------------
 Cypress.Commands.add('waitForResourceToLoad', (fileName, type) => {
   const resourceCheckInterval = 40;
-  const maxChecks = 50;
-  const count = [0];
 
   return new Cypress.Promise((resolve) => {
     const checkIfResourceHasBeenLoaded = () => {
@@ -205,39 +205,10 @@ Cypress.Commands.add('waitForResourceToLoad', (fileName, type) => {
         return;
       }
 
-      count[0] += 1;
       setTimeout(checkIfResourceHasBeenLoaded, resourceCheckInterval);
-
-      if (count[0] > maxChecks) {
-        throw new Error(
-          `Timeout resolving resource: ${fileName} (type ${type})`,
-        );
-      }
     };
 
     checkIfResourceHasBeenLoaded();
-  });
-});
-
-// --- CREATE CONTENT --------------------------------------------------------
-Cypress.Commands.add('setRegistry', (record, value) => {
-  let api_url, auth;
-  api_url = `http://${Cypress.env('BACKEND_HOST') || 'localhost'}:55001/plone`;
-  auth = {
-    user: 'admin',
-    pass: 'secret',
-  };
-
-  return cy.request({
-    method: 'PATCH',
-    url: `${api_url}/@registry/`,
-    headers: {
-      Accept: 'application/json',
-    },
-    auth: auth,
-    body: {
-      [record]: value,
-    },
   });
 });
 
@@ -317,7 +288,6 @@ function getTextNode(el, match) {
     return walk.nextNode();
   }
 
-  const nodes = [];
   let node;
   while ((node = walk.nextNode())) {
     if (node.wholeText.includes(match)) {
@@ -332,6 +302,20 @@ function setBaseAndExtent(...args) {
   document.getSelection().setBaseAndExtent(...args);
 }
 
+function getIfExists(
+  selector,
+  successAction = () => {},
+  failAction = () => {},
+) {
+  cy.get('body').then((body) => {
+    if (body.find(selector).length > 0 && successAction) {
+      successAction();
+    } else if (failAction) {
+      failAction();
+    }
+  });
+}
+
 Cypress.Commands.add('navigate', (route = '') => {
   return cy.window().its('appHistory').invoke('push', route);
 });
@@ -343,3 +327,5 @@ Cypress.Commands.add('store', () => {
 Cypress.Commands.add('settings', (key, value) => {
   return cy.window().its('settings');
 });
+
+Cypress.Commands.add('getIfExists', getIfExists);
