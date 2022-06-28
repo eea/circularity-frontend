@@ -14,12 +14,18 @@ pipeline {
 
   stages {
 
-   stage('Integration tests') {
+    stage('Integration tests') {
       parallel {
-        stage('Cypress') {
-          when {
-            environment name: 'CHANGE_ID', value: ''           
-          }
+        stage('Run Cypress: @eeacms/volto-*') {
+         when {
+           allOf {
+             environment name: 'CHANGE_ID', value: ''
+             not { branch 'master' }
+             not { changelog '.*^Automated release [0-9\\.]+$' }
+             not { buildingTag() }
+           }
+         }
+ 
           steps {
             node(label: 'docker') {
               script {
@@ -47,17 +53,15 @@ pipeline {
             }
           }
         }
-        
+       
         stage("Docker test build") {
-             when {
-               not {
-                environment name: 'CHANGE_ID', value: ''
-               }
-               not {
-                 buildingTag()
-               }
-               environment name: 'CHANGE_TARGET', value: 'master'
-             }
+           when {
+              allOf {
+                not { changelog '.*^Automated release [0-9\\.]+$' }
+                not { environment name: 'CHANGE_ID', value: '' }
+                environment name: 'CHANGE_TARGET', value: 'master'
+              }
+            }
              environment {
               IMAGE_NAME = BUILD_TAG.toLowerCase()
              }
@@ -74,34 +78,29 @@ pipeline {
                }
              }
           }
-          
-        
+    
+    stage('Pull Request') {
+      when {
+        allOf {
+            not { environment name: 'CHANGE_ID', value: '' }
+            environment name: 'CHANGE_TARGET', value: 'master'
+            not { changelog '.*^Automated release [0-9\\.]+$' }
+        }
+      }
+      steps {
+        node(label: 'docker') {
+          script {
+            if ( env.CHANGE_BRANCH != "develop" &&  !( env.CHANGE_BRANCH.startsWith("hotfix")) ) {
+                error "Pipeline aborted due to PR not made from develop or hotfix branch"
+            }
+           withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
+            sh '''docker pull eeacms/gitflow'''
+            sh '''docker run -i --rm --name="$BUILD_TAG-gitflow-pr" -e GIT_CHANGE_TARGET="$CHANGE_TARGET" -e GIT_CHANGE_BRANCH="$CHANGE_BRANCH" -e GIT_CHANGE_AUTHOR="$CHANGE_AUTHOR" -e GIT_CHANGE_TITLE="$CHANGE_TITLE" -e GIT_TOKEN="$GITHUB_TOKEN" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" -e GIT_ORG="$GIT_ORG" -e GIT_NAME="$GIT_NAME" -e LANGUAGE=javascript eeacms/gitflow'''
+           }
+          }
+        }
       }
     }
-
-    
-    // stage('Pull Request') {
-    //   when {
-    //     not {
-    //       environment name: 'CHANGE_ID', value: ''
-    //     }
-    //     environment name: 'CHANGE_TARGET', value: 'master'
-    //   }
-    //   steps {
-    //     node(label: 'docker') {
-    //       script {
-    //         if ( env.CHANGE_BRANCH != "develop" &&  !( env.CHANGE_BRANCH.startsWith("hotfix")) ) {
-    //             error "Pipeline aborted due to PR not made from develop or hotfix branch"
-    //         }
-    //        withCredentials([string(credentialsId: 'eea-jenkins-token', variable: 'GITHUB_TOKEN')]) {
-    //         sh '''docker pull eeacms/gitflow'''
-    //         sh '''docker run -i --rm --name="$BUILD_TAG-gitflow-pr" -e GIT_CHANGE_TARGET="$CHANGE_TARGET" -e GIT_CHANGE_BRANCH="$CHANGE_BRANCH" -e GIT_CHANGE_AUTHOR="$CHANGE_AUTHOR" -e GIT_CHANGE_TITLE="$CHANGE_TITLE" -e GIT_TOKEN="$GITHUB_TOKEN" -e GIT_BRANCH="$BRANCH_NAME" -e GIT_CHANGE_ID="$CHANGE_ID" -e GIT_ORG="$GIT_ORG" -e GIT_NAME="$GIT_NAME" -e LANGUAGE=javascript eeacms/gitflow'''
-    //        }
-    //       }
-    //     }
-    //   }
-    // }
-
   
     stage('Release') {
       when {
