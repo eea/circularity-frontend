@@ -15,7 +15,6 @@ pipeline {
   stages {
 
     stage('Integration tests') {
-      parallel {
         stage('Run Cypress: @eeacms/volto-*') {
          when {
            allOf {
