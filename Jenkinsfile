@@ -15,7 +15,8 @@ pipeline {
   stages {
 
     stage('Integration tests') {
-        stage('Run Cypress: @eeacms/volto-*') {
+      parallel {
+       stage('Run Cypress: @eeacms/volto-*') {
          when {
            allOf {
              environment name: 'CHANGE_ID', value: ''
@@ -77,7 +78,8 @@ pipeline {
                }
              }
           }
-    
+      }
+     
     stage('Pull Request') {
       when {
         allOf {
