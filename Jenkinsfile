@@ -79,7 +79,7 @@ pipeline {
              }
           }
       }
-     
+    }
     stage('Pull Request') {
       when {
         allOf {
