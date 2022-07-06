@@ -23,7 +23,9 @@
     "release-beta": "release-it --preRelease=beta"
   },
   "private": false,
-  "workspaces": [],
+  "workspaces": [
+    "src/addons/*"
+  ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-sustainability-theme",
