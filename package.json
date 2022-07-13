@@ -132,8 +132,8 @@
   "dependencies": {
     "@plone/volto": "15.12.1",
     "@eeacms/volto-eea-kitkat": "*",
-    "@eeacms/volto-sustainability-theme": "*",
-    "@eeacms/volto-circularity-policy": "github:eea/volto-circularity-policy"
+    "@eeacms/volto-sustainability-theme": "0.1.6",
+    "@eeacms/volto-circularity-policy": "0.1.2"
   },
   "devDependencies": {
     "eslint-plugin-prettier": "3.1.3",
