@@ -22,7 +22,7 @@
     "release-major-beta": "release-it major --preRelease=beta",
     "release-beta": "release-it --preRelease=beta"
   },
-  "private": false,
+  "private": true,
   "workspaces": [
     "src/addons/*"
   ],
