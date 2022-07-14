@@ -130,22 +130,22 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@plone/volto": "15.12.1",
+    "@eeacms/volto-circularity-policy": "0.1.3",
     "@eeacms/volto-eea-kitkat": "*",
     "@eeacms/volto-sustainability-theme": "0.1.6",
-    "@eeacms/volto-circularity-policy": "0.1.2"
+    "@plone/volto": "15.12.1"
   },
   "devDependencies": {
-    "eslint-plugin-prettier": "3.1.3",
-    "jest-junit": "8.0.0",
-    "mrs-developer": "*",
-    "postcss": "8.3.11",
-    "prettier": "2.0.5",
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
     "@storybook/addon-essentials": "^6.3.0",
     "@storybook/addon-links": "^6.3.0",
     "@storybook/react": "^6.3.0",
+    "eslint-plugin-prettier": "3.1.3",
+    "jest-junit": "8.0.0",
+    "mrs-developer": "*",
+    "postcss": "8.3.11",
+    "prettier": "2.0.5",
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",

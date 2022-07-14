@@ -1344,10 +1344,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.0.tgz#e521ff18f7ca57033b77d70e23d7f3a77f674d2a"
   integrity sha512-57a8i6spgk/ZySRM9ukt7+XaWWrGs8fS4GyYGtctDj6BG5CjFx77ETBzM1mJWgsIkEeXS3ekB4HYzNRHFGjRJw==
 
-"@eeacms/volto-circularity-policy@0.1.2":
-  version "0.1.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-0.1.2.tgz#a98d530fcd4091e200d79df2b054695a14bdb76e"
-  integrity sha512-l8zkbDsoNqHwupwXoOzMQYkS7IvCPlIsph1oC9MLkbQF6HaWE5maz5BOAZzrmHpV/UQLg9gr2SGuCjRrmX24wQ==
+"@eeacms/volto-circularity-policy@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-0.1.3.tgz#24462e4279fa3330d2e568581c49056d1b935e8e"
+  integrity sha512-Iy4y0UUDSc+6tb0WRHn9FAci5HVhEpwddhEsYmtbjV0qQJq6SG840wFaoMy5IRyx6d+Q/Byg5Z68NYx+tOMxZA==
   dependencies:
     "@plone/scripts" "*"
 
