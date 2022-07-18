@@ -1344,9 +1344,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-block-toc/-/volto-block-toc-3.0.0.tgz#e521ff18f7ca57033b77d70e23d7f3a77f674d2a"
   integrity sha512-57a8i6spgk/ZySRM9ukt7+XaWWrGs8fS4GyYGtctDj6BG5CjFx77ETBzM1mJWgsIkEeXS3ekB4HYzNRHFGjRJw==
 
-"@eeacms/volto-circularity-policy@github:eea/volto-circularity-policy":
-  version "0.1.1"
-  resolved "https://codeload.github.com/eea/volto-circularity-policy/tar.gz/5dfd2467bae7011ce51443164374d49868de2a80"
+"@eeacms/volto-circularity-policy@0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-0.1.3.tgz#24462e4279fa3330d2e568581c49056d1b935e8e"
+  integrity sha512-Iy4y0UUDSc+6tb0WRHn9FAci5HVhEpwddhEsYmtbjV0qQJq6SG840wFaoMy5IRyx6d+Q/Byg5Z68NYx+tOMxZA==
   dependencies:
     "@plone/scripts" "*"
 
@@ -1465,10 +1466,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-sustainability-theme@*":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.4.tgz#db99ba360d315df83190a91540892f50dd0d3730"
-  integrity sha512-4OIY40TAdbopq88zahh9AxJSzbMLIxF7omvgvn1Uba6BVQFrKJPqMINeTGpvt+ysZ8NvxmPgSLt3+0rJCy7JAg==
+"@eeacms/volto-sustainability-theme@0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.6.tgz#77a2b58814204c7ea37fc744e13304eb75f6d035"
+  integrity sha512-qZZMlad8Rcw+E5Iyt1Ro1TIJSO2E7tJghIjwzRtdlc1H+/swwKzggX++ZDGSW2/awscr9KJ7XFP47guqanwB5A==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
