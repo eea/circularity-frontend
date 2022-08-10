@@ -228,5 +228,12 @@
     "package": "@eeacms/volto-circularity-policy",
     "branch": "develop",
     "path": "src"
+  },
+  "volto-plotlycharts": {
+    "url": "git@github.com:eea/volto-plotlycharts.git",
+    "https": "https://github.com/eea/volto-plotlycharts.git",
+    "package": "@eeacms/volto-plotlycharts",
+    "branch": "develop",
+    "path": "src"
   }
 }
