@@ -29,7 +29,8 @@
   "addons": [
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-sustainability-theme",
-    "@eeacms/volto-circularity-policy"
+    "@eeacms/volto-circularity-policy",
+    "@eeacms/volto-plotlycharts"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -138,6 +139,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
+    "@eeacms/volto-plotlycharts": "3.0.6",
     "@storybook/addon-essentials": "^6.3.0",
     "@storybook/addon-links": "^6.3.0",
     "@storybook/react": "^6.3.0",
