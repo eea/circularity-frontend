@@ -1,0 +1,192 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: \n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: A custom CSS class, aplicable to this column
+msgid "A custom CSS class, aplicable to this column"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Advanced
+msgid "Advanced"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Background color
+msgid "Background color"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Bottom
+msgid "Bottom"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Breadcrumbs/Breadcrumbs
+# defaultMessage: Breadcrumbs
+msgid "Breadcrumbs"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: Click
+msgid "Click"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Navigation/Navigation
+# defaultMessage: Close menu
+msgid "Close menu"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/NotFound/NotFound
+# defaultMessage: contact us
+msgid "Contact Us"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Custom CSS class
+msgid "Custom CSS class"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Logo/Logo
+# defaultMessage: European Environment Agency
+msgid "European Environment Agency"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: Forbidden, you will be redirected to the login screen in
+msgid "Forbidden, you will be redirected to the login screen in "
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: Get back
+msgid "Get back"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Breadcrumbs/Breadcrumbs
+# defaultMessage: Home
+msgid "Home"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/NotFound/NotFound
+# defaultMessage: If you are certain you have the correct web address but are encountering an error, please {contact_us}.
+msgid "If you are certain you have the correct web address but are encountering an error, please {contact_us}."
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: Log in
+msgid "Log in"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Middle
+msgid "Middle"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/manage/Widgets/ArrayWidget
+# defaultMessage: No options
+msgid "No options"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/manage/Widgets/ArrayWidget
+# defaultMessage: No value
+msgid "No value"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Navigation/Navigation
+# defaultMessage: Open menu
+msgid "Open menu"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Padding
+msgid "Padding"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Rounded Corner
+msgid "Rounded Corner"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/SearchWidget/SearchWidget
+# defaultMessage: Search
+msgid "Search"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/manage/Widgets/ArrayWidget
+# defaultMessage: Select…
+msgid "Select…"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Shadow Color
+msgid "Shadow Color"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Shadow Depth
+msgid "Shadow Depth"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Logo/Logo
+# defaultMessage: Site
+msgid "Site"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Style
+msgid "Style"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Styling
+msgid "Styling"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/NotFound/NotFound
+# defaultMessage: Thank you.
+msgid "Thank you."
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/NotFound/NotFound
+# defaultMessage: This page does not seem to exist…
+msgid "This page does not seem to exist…"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Top
+msgid "Top"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: Unauthorized
+msgid "Unauthorized"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/@eeacms/volto-columns-block/Styles/schema
+# defaultMessage: Vertical align
+msgid "Vertical align"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/NotFound/NotFound
+# defaultMessage: We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for.
+msgid "We apologize for the inconvenience, but the page you were trying to access is not at this address. You can use the links below to help you find what you are looking for."
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: to get to login screen or click
+msgid "to get to login screen or click"
+msgstr ""
+
+#: develop/volto-sustainability-theme/src/customizations/volto/components/theme/Unauthorized/Unauthorized
+# defaultMessage: to get to the previous location
+msgid "to get to the previous location"
+msgstr ""
