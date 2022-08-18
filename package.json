@@ -2,7 +2,7 @@
   "name": "circularity-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -132,7 +132,7 @@
   },
   "dependencies": {
     "@eeacms/volto-circularity-policy": "0.1.3",
-    "@eeacms/volto-eea-kitkat": "*",
+    "@eeacms/volto-eea-kitkat": "6.2.3",
     "@eeacms/volto-sustainability-theme": "0.1.10",
     "@plone/volto": "15.12.1"
   },
