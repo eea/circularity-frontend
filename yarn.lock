@@ -1515,10 +1515,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-sustainability-theme@0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.10.tgz#1eb4688b6f4c6669f4b3b19fa6fec9ee576aec42"
-  integrity sha512-BMkJb4be06meRGg0udiINmQPgwEsjQeFMUmD9D8AITBOTrRQDhAchFGy7MOuIpJRpnXLkIgDD5qPz3t5vvuxkA==
+"@eeacms/volto-sustainability-theme@0.1.11":
+  version "0.1.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.11.tgz#b53affafa4cf706c1955938043e2cf0e22f71442"
+  integrity sha512-M7qy50+pGyNdypx0UgYpdP+rSNc9bF0zayO4j5FIjhLIc1PFHh+N1lvMol5rx7jbfnrX7R+FMdJX6BJNWJNaIA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
@@ -4808,7 +4808,7 @@ ansi-align@^3.0.0:
   dependencies:
     string-width "^3.0.0"
 
-ansi-colors@^3.0.0, ansi-colors@^3.2.1:
+ansi-colors@^3.0.0:
   version "3.2.4"
   resolved "https://registry.yarnpkg.com/ansi-colors/-/ansi-colors-3.2.4.tgz#e3a3da4bfbae6c86a9c285625de124a234026fbf"
   integrity sha512-hHUXGagefjN2iRrID63xckIvotOXOojhQKWIPUZ4mNUZ9nLZW+7FMNoE1lOkEhNWYsx/7ysGIuJYCiMAA9FnrA==
@@ -7936,7 +7936,7 @@ cssstyle@^2.3.0:
   dependencies:
     cssom "~0.3.6"
 
-csstype@^2.2.0, csstype@^2.5.2, csstype@^2.5.7, csstype@^2.6.7:
+csstype@^2.5.2, csstype@^2.5.7, csstype@^2.6.7:
   version "2.6.20"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.20.tgz#9229c65ea0b260cf4d3d997cb06288e36a8d6dda"
   integrity sha512-/WwNkdXfckNgw6S5R125rrW8ez139lBHWouiBvX8dfMFtcn6V81REDqnH7+CRpRipfYlyU1CmOnOxrmGcFOjeA==
