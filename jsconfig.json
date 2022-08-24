@@ -25,6 +25,8 @@
         "addons/volto-slate-metadata-mentions/src"
       ],
       "@eeacms/volto-slate-footnote": ["addons/volto-slate-footnote/src"],
+      "@eeacms/volto-slate-label": ["addons/volto-slate-label/src"],
+      "@eeacms/volto-slate-dataentity": ["addons/volto-slate-dataentity/src"],
       "@eeacms/volto-slate-zotero": ["addons/volto-slate-zotero/src"],
       "@eeacms/volto-accordion-block": ["addons/volto-accordion-block/src"],
       "@eeacms/volto-block-toc": ["addons/volto-block-toc/src"],
