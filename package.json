@@ -2,7 +2,7 @@
   "name": "circularity-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
