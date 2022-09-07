@@ -1515,10 +1515,10 @@
     "@eeacms/volto-slate-footnote" "*"
     volto-slate "*"
 
-"@eeacms/volto-sustainability-theme@0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.12.tgz#4ebad48fc2f9da77fb396c7c4d7eb9775b48f70f"
-  integrity sha512-2FzZF6LhcH30nxAvaGjTSJRCwsA1jGwFfrkwkz10GbtdoDXb6pqVXD7W/vcP94si+2qzhgSDiVv5xSjRxHjwKQ==
+"@eeacms/volto-sustainability-theme@0.1.13":
+  version "0.1.13"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-sustainability-theme/-/volto-sustainability-theme-0.1.13.tgz#fdfe7b61e50054187bfb1bbc75473c0f9e7d1bf1"
+  integrity sha512-lOMgidA3hP5ZSqfYUsXaSV+S3YKmxP+qZqtSbffYHs/X03gOLF5G8wOQKvkmdRJpMRhOHbrapFrQ0Zh3APrfLg==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
 
