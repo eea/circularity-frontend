@@ -28,8 +28,9 @@
   ],
   "addons": [
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-sustainability-theme",
     "@eeacms/volto-circularity-policy",
+    "@eeacms/volto-eea-design-system",
+    "@eeacms/volto-eea-website-theme",
     "@eeacms/volto-plotlycharts"
   ],
   "jest": {
@@ -133,11 +134,12 @@
   "dependencies": {
     "@eeacms/volto-circularity-policy": "0.1.3",
     "@eeacms/volto-eea-kitkat": "8.0.0",
-    "@eeacms/volto-sustainability-theme": "0.1.14",
     "@plone/volto": "16.0.0-alpha.14"
   },
   "devDependencies": {
     "@eeacms/volto-plotlycharts": "3.0.6",
+    "@eeacms/volto-eea-design-system": "0.9.0",
+    "@eeacms/volto-eea-website-theme": "0.7.2",
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
     "@storybook/addon-essentials": "^6.3.0",
