@@ -151,7 +151,7 @@
     "@eeacms/volto-description-block": "0.3.1",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.1",
     "@eeacms/volto-circularity-policy": "0.1.4",
-    "@eeacms/volto-plotlycharts": "3.0.6",
+    "@eeacms/volto-plotlycharts": "5.0.1",
     "@eeacms/volto-eea-website-theme": "0.7.2",
     "@eeacms/volto-eea-kitkat": "8.2.4",
     "@eeacms/volto-globalsearch": "0.1.7",
