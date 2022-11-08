@@ -39,14 +39,6 @@
     "develop": false,
     "path": "src"
   },
-  "volto-object-widget": {
-    "url": "git@github.com:eea/volto-object-widget.git",
-    "https": "https://github.com/eea/volto-object-widget.git",
-    "package": "@eeacms/volto-object-widget",
-    "branch": "develop",
-    "develop": false,
-    "path": "src"
-  },
   "volto-widgets-view": {
     "url": "git@github.com:eea/volto-widgets-view.git",
     "https": "https://github.com/eea/volto-widgets-view.git",
@@ -171,14 +163,6 @@
     "url": "git@github.com:eea/volto-tabs-block.git",
     "https": "https://github.com/eea/volto-tabs-block.git",
     "package": "@eeacms/volto-tabs-block",
-    "branch": "develop",
-    "develop": false,
-    "path": "src"
-  },
-  "volto-block-image-cards": {
-    "url": "git@github.com:eea/volto-block-image-cards.git",
-    "https": "https://github.com/eea/volto-block-image-cards.git",
-    "package": "@eeacms/volto-block-image-cards",
     "branch": "develop",
     "develop": false,
     "path": "src"

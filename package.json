@@ -8,6 +8,7 @@
     "postinstall": "yarn omelette && yarn patches",
     "analyze": "BUNDLE_ANALYZE=true razzle build",
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
+    "repack": "rm -rf node_modules && rm -rf yarn.lock && yarn",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
     "build": "razzle build",
     "start:prod": "NODE_ENV=production node build/server.js",
@@ -134,37 +135,30 @@
     },
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
-  "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie 11",
-    "not dead"
-  ],
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
     "@eeacms/search": "0.2.30",
-    "@eeacms/volto-call-to-action-block": "0.2.4",
-    "@eeacms/volto-datahub": "0.1.12",
-    "@eeacms/volto-description-block": "0.3.1",
+    "@eeacms/volto-call-to-action-block": "1.0.0",
+    "@eeacms/volto-datahub": "1.0.0",
+    "@eeacms/volto-description-block": "1.0.0",
     "@eeacms/volto-eea-design-system": "1.0.0-alpha.1",
     "@eeacms/volto-circularity-policy": "0.1.4",
     "@eeacms/volto-plotlycharts": "5.0.1",
     "@eeacms/volto-eea-website-theme": "0.7.2",
-    "@eeacms/volto-eea-kitkat": "8.2.4",
+    "@eeacms/volto-eea-kitkat": "9.0.0",
     "@eeacms/volto-globalsearch": "0.1.7",
-    "@eeacms/volto-hero-block": "0.2.0",
-    "@eeacms/volto-quote-block": "0.3.3",
-    "@eeacms/volto-searchlib": "0.3.18",
-    "@eeacms/volto-slate-label": "0.3.0",
-    "@eeacms/volto-statistic-block": "0.3.0",
-    "@eeacms/volto-tags-block": "0.2.4",
-    "@eeacms/volto-timeline-block": "0.2.3",
-    "@eeacms/volto-workflow-progress": "2.3.14",
-    "@kitconcept/volto-blocks-grid": "3.1.0",
-    "@plone/volto": "16.0.0-alpha.14"
+    "@eeacms/volto-hero-block": "1.0.0",
+    "@eeacms/volto-quote-block": "1.0.0",
+    "@eeacms/volto-searchlib": "0.4.0",
+    "@eeacms/volto-slate-label": "0.4.3",
+    "@eeacms/volto-statistic-block": "1.0.0",
+    "@eeacms/volto-tags-block": "1.0.0",
+    "@eeacms/volto-timeline-block": "1.0.0",
+    "@eeacms/volto-workflow-progress": "3.0.0",
+    "@kitconcept/volto-blocks-grid": "5.1.1",
+    "@plone/volto": "16.0.0-alpha.45"
   },
   "resolutions": {
     "@eeacms/volto-listing-block": "0.6.8"
