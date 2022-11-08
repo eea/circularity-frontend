@@ -160,9 +160,6 @@
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.0.0-alpha.45"
   },
-  "resolutions": {
-    "@eeacms/volto-listing-block": "0.6.8"
-  },
   "devDependencies": {
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
