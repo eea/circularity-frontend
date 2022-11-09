@@ -6,7 +6,8 @@
         "addons/volto-circularity-policy/src"
       ],
 
-      "@eeacms/volto-plotlycharts": ["addons/volto-plotlycharts/src"]
+      "@eeacms/volto-plotlycharts": ["addons/volto-plotlycharts/src"],
+      "@eeacms/volto-eea-design-system": ["addons/volto-eea-design-system/src"]
     },
     "baseUrl": "src"
   }

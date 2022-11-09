@@ -1172,6 +1172,21 @@
   resolved "https://registry.yarnpkg.com/@colors/colors/-/colors-1.5.0.tgz#bb504579c1cae923e6576a4f5da43d25f97bdbd9"
   integrity sha512-ooWCrlZP11i8GImSjTHYHLkvFDP48nS4+204nGb1RiX/WXYHmJA2III9/e2DWVabCESdW7hBAEzHRqUn9OUVvQ==
 
+"@cypress/code-coverage@^3.10.0", "@cypress/code-coverage@^3.9.5":
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@cypress/code-coverage/-/code-coverage-3.10.0.tgz#2132dbb7ae068cab91790926d50a9bf85140cab4"
+  integrity sha512-K5pW2KPpK4vKMXqxd6vuzo6m9BNgpAv1LcrrtmqAtOJ1RGoEILXYZVost0L6Q+V01NyY7n7jXIIfS7LR3nP6YA==
+  dependencies:
+    "@cypress/webpack-preprocessor" "^5.11.0"
+    chalk "4.1.2"
+    dayjs "1.10.7"
+    debug "4.3.4"
+    execa "4.1.0"
+    globby "11.0.4"
+    istanbul-lib-coverage "3.0.0"
+    js-yaml "3.14.1"
+    nyc "15.1.0"
+
 "@cypress/request@^2.88.10":
   version "2.88.10"
   resolved "https://registry.yarnpkg.com/@cypress/request/-/request-2.88.10.tgz#b66d76b07f860d3a4b8d7a0604d020c662752cce"
@@ -1361,16 +1376,6 @@
   version "0.9.5"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-0.9.5.tgz#e947ba5d04082872008a840735f99628de7ddc33"
   integrity sha512-5NyB98NJNeVhYluS0BvHsFXtZnxVz6STTcgKsTkojnziVhRx23+eedmrn4C21WQRExeybjJPI2rY2WCOgwYpsQ==
-  dependencies:
-    "@eeacms/volto-corsproxy" "*"
-    react-countup "^6.3.0"
-    react-slick "^0.28.1"
-    remixicon "2.5.0"
-
-"@eeacms/volto-eea-design-system@1.0.0-alpha.2":
-  version "1.0.0-alpha.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.2.tgz#9fb5e278e315abf51f3e567a12ee8fec6fd9cb06"
-  integrity sha512-mEy376/IawRd614KL/fXF7fS7RAoZHMDYTFimktSS5zuWfnI9MUQ3o1nKQBNRhPqrsWOsqLw/GjuxixbgKW8VA==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
