@@ -158,6 +158,7 @@
     "@eeacms/volto-workflow-progress": "3.0.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@eeacms/volto-circularity-policy": "0.1.4",
+    "@eeacms/volto-plotlycharts": "5.0.1",
     "@plone/volto": "16.0.0-alpha.45"
   },
   "devDependencies": {

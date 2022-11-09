@@ -1572,6 +1572,21 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-5.0.0.tgz#78d1b8f5985389fceff1504d773210b6e49d6f71"
   integrity sha512-s8y+IddpS2t/gxKe1FeM/38eb2dKn3KH70zJ3b9IdCiP0f1WvlAHZNbW1yosVf03bCxxrqTfwqPH5XDN2U/cUA==
 
+"@eeacms/volto-plotlycharts@5.0.1":
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-5.0.1.tgz#906f4e3885668291d879732e4b79e07f8ae2348b"
+  integrity sha512-KfGKUaJWW9sQT3FTVgBveX2ef/j323t8tZirswwqwIErPcod9KP4wXRTpDj+r52/IlZG/q46Yt0wUt2VETn3CQ==
+  dependencies:
+    "@eeacms/volto-datablocks" "*"
+    "@eeacms/volto-matomo" "*"
+    "@plone/scripts" "*"
+    plotly.js "^2.9.0"
+    react-chart-editor "0.45.0"
+    react-colorscales "0.7.3"
+    react-inspector "5.1.1"
+    react-json-editor-ajrm "2.5.13"
+    react-plotly.js "2.5.1"
+
 "@eeacms/volto-quote-block@1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-1.0.0.tgz#95e41e40773bf477a1ab6a2eb59a6b3769d515e3"
