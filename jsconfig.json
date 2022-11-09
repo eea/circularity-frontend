@@ -3,14 +3,10 @@
     "jsx": "react",
     "paths": {
       "@eeacms/volto-circularity-policy": [
-        "develop/volto-circularity-policy/src"
+        "addons/volto-circularity-policy/src"
       ],
-      "@eeacms/volto-sustainability-theme": [
-        "develop/volto-sustainability-theme/src"
-      ],
-      "@eeacms/volto-plotlycharts": ["develop/volto-plotlycharts/src"],
-      "@eeacms/volto-object-widget": ["develop/volto-object-widget/src"],
-      "@eeacms/volto-quote-block": ["develop/volto-quote-block/src"]
+
+      "@eeacms/volto-plotlycharts": ["addons/volto-plotlycharts/src"]
     },
     "baseUrl": "src"
   }
