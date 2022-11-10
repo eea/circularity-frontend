@@ -1216,7 +1216,7 @@
   dependencies:
     "@datapunt/matomo-tracker-js" "^0.3.1"
 
-"@eeacms/search@*", "@eeacms/search@0.2.31":
+"@eeacms/search@0.2.31":
   version "0.2.31"
   resolved "https://registry.yarnpkg.com/@eeacms/search/-/search-0.2.31.tgz#f4ebb65e5910b59278a8b9d052a330882ae21ecd"
   integrity sha512-9AmBcooy1wDDq/Wly/U3rCETa9vDvo402X+3oRbi9jgJOwPf7/mIr+v7GXU+Q2HzkQ3c+EIDe/16YfecD06Gdg==
@@ -1474,11 +1474,12 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-object-widget/-/volto-object-widget-5.0.0.tgz#78d1b8f5985389fceff1504d773210b6e49d6f71"
   integrity sha512-s8y+IddpS2t/gxKe1FeM/38eb2dKn3KH70zJ3b9IdCiP0f1WvlAHZNbW1yosVf03bCxxrqTfwqPH5XDN2U/cUA==
 
-"@eeacms/volto-plotlycharts@5.0.1":
-  version "5.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-5.0.1.tgz#906f4e3885668291d879732e4b79e07f8ae2348b"
-  integrity sha512-KfGKUaJWW9sQT3FTVgBveX2ef/j323t8tZirswwqwIErPcod9KP4wXRTpDj+r52/IlZG/q46Yt0wUt2VETn3CQ==
+"@eeacms/volto-plotlycharts@5.0.2":
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-plotlycharts/-/volto-plotlycharts-5.0.2.tgz#acb94db19197b5f6f1ca5963a090ab2ca896b0a4"
+  integrity sha512-GAP0FAytxT0OEzcEMWpJ4UTc401NN7EwRWeOyNeYmM7K8tJu5TlMG9wglchUgZSpMxT1BIi/k66d56Zb8ppS7w==
   dependencies:
+    "@eeacms/volto-block-style" "4.1.0"
     "@eeacms/volto-datablocks" "*"
     "@eeacms/volto-matomo" "*"
     "@plone/scripts" "*"
