@@ -9,14 +9,14 @@ if [ -z "$INTERNAL_API_PATH" ]; then
   INTERNAL_API_PATH="http://backend:8080/Plone"
 fi
 
-function apply_rebuild {
-  mkdir -p /opt/frontend/src/addons
-  find /opt/frontend/ -not -user node -exec chown node {} \+
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn develop
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn
-  RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn build
-  find /opt/frontend/ -not -user node -exec chown node {} \+
-}
+# function apply_rebuild {
+#   mkdir -p /opt/frontend/src/addons
+#   find /opt/frontend/ -not -user node -exec chown node {} \+
+#   RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn develop
+#   RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn
+#   RAZZLE_API_PATH=VOLTO_API_PATH RAZZLE_INTERNAL_API_PATH=VOLTO_INTERNAL_API_PATH gosu node yarn build
+#   find /opt/frontend/ -not -user node -exec chown node {} \+
+# }
 
 function apply_path {
     mainjs=./build/server.js
@@ -37,7 +37,7 @@ function apply_path {
 }
 
 # Should we re-build
-test -n "$REBUILD" && apply_rebuild
+# test -n "$REBUILD" && apply_rebuild
 
 # Should we monkey patch?
 test -n "$API_PATH" && apply_path

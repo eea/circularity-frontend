@@ -2,14 +2,15 @@
   "name": "circularity-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.15.0",
+  "version": "0.17.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
     "analyze": "BUNDLE_ANALYZE=true razzle build",
     "omelette": "ln -sf node_modules/@plone/volto/ omelette",
+    "repack": "rm -rf node_modules && rm -rf yarn.lock && yarn",
     "patches": "/bin/bash patches/patchit.sh > /dev/null 2>&1 ||true",
-    "build": "razzle build",
+    "build": "razzle build --noninteractive",
     "start:prod": "NODE_ENV=production node build/server.js",
     "i18n": "rm -rf build/messages && NODE_ENV=production i18n",
     "develop:npx": "npx -p mrs-developer missdev --config=jsconfig.json --output=develop",
@@ -27,10 +28,24 @@
     "src/addons/*"
   ],
   "addons": [
+    "@kitconcept/volto-blocks-grid",
+    "@eeacms/volto-quote-block",
+    "@eeacms/volto-statistic-block",
+    "@eeacms/volto-tags-block",
+    "@eeacms/volto-timeline-block",
+    "@eeacms/volto-description-block",
+    "@eeacms/volto-call-to-action-block",
+    "@eeacms/volto-hero-block",
     "@eeacms/volto-eea-kitkat",
-    "@eeacms/volto-sustainability-theme",
-    "@eeacms/volto-circularity-policy",
-    "@eeacms/volto-plotlycharts"
+    "@eeacms/volto-slate-label",
+    "@eeacms/volto-workflow-progress",
+    "@eeacms/volto-searchlib",
+    "@eeacms/volto-globalsearch",
+    "@eeacms/volto-datahub",
+    "@eeacms/volto-eea-design-system",
+    "@eeacms/volto-eea-website-theme",
+    "@eeacms/volto-plotlycharts",
+    "@eeacms/volto-circularity-policy"
   ],
   "jest": {
     "modulePathIgnorePatterns": [
@@ -38,8 +53,7 @@
     ],
     "transform": {
       "^.+\\.js(x)?$": "babel-jest",
-      "^.+\\.css$": "jest-css-modules",
-      "^.+\\.scss$": "jest-css-modules",
+      "^.+\\.less$": "jest-css-modules",
       "^.+\\.(png)$": "jest-file",
       "^.+\\.(jpg)$": "jest-file",
       "^.+\\.(svg)$": "./node_modules/@plone/volto/jest-svgsystem-transform.js"
@@ -52,6 +66,8 @@
       "@plone/volto/(.*)$": "<rootDir>/node_modules/@plone/volto/src/$1",
       "load-volto-addons": "<rootDir>/node_modules/@plone/volto/jest-addons-loader.js",
       "@package/(.*)$": "<rootDir>/src/$1",
+      "@plone/volto-slate": "<rootDir>/node_modules/@plone/volto/packages/volto-slate/src",
+      "\\.(css|less|scss|sass)$": "identity-obj-proxy",
       "@root/(.*)$": "<rootDir>/src/$1",
       "~/(.*)$": "<rootDir>/src/$1"
     },
@@ -120,24 +136,32 @@
     },
     "ignoreFiles": "theme/themes/default/**/*.overrides"
   },
-  "browserslist": [
-    ">1%",
-    "last 4 versions",
-    "Firefox ESR",
-    "not ie 11",
-    "not dead"
-  ],
   "engines": {
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-circularity-policy": "0.1.3",
-    "@eeacms/volto-eea-kitkat": "7.1.4",
-    "@eeacms/volto-sustainability-theme": "0.1.14",
-    "@plone/volto": "16.0.0-alpha.14"
+    "@eeacms/search": "0.2.31",
+    "@eeacms/volto-call-to-action-block": "1.0.0",
+    "@eeacms/volto-circularity-policy": "2.0.1",
+    "@eeacms/volto-datahub": "1.0.0",
+    "@eeacms/volto-description-block": "1.0.0",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.2",
+    "@eeacms/volto-eea-kitkat": "9.0.0",
+    "@eeacms/volto-eea-website-theme": "1.1.0",
+    "@eeacms/volto-globalsearch": "1.0.0",
+    "@eeacms/volto-hero-block": "1.0.0",
+    "@eeacms/volto-plotlycharts": "5.0.2",
+    "@eeacms/volto-quote-block": "1.0.0",
+    "@eeacms/volto-searchlib": "0.4.1",
+    "@eeacms/volto-slate-label": "0.4.3",
+    "@eeacms/volto-statistic-block": "1.0.0",
+    "@eeacms/volto-tags-block": "1.0.0",
+    "@eeacms/volto-timeline-block": "1.0.0",
+    "@eeacms/volto-workflow-progress": "3.0.0",
+    "@kitconcept/volto-blocks-grid": "5.1.1",
+    "@plone/volto": "16.0.0-alpha.45"
   },
   "devDependencies": {
-    "@eeacms/volto-plotlycharts": "3.0.6",
     "@storybook/addon-actions": "^6.3.0",
     "@storybook/addon-controls": "6.3.0",
     "@storybook/addon-essentials": "^6.3.0",
@@ -148,6 +172,7 @@
     "mrs-developer": "*",
     "postcss": "8.3.11",
     "prettier": "2.0.5",
+    "release-it": "^15.1.3",
     "stylelint": "14.0.1",
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
