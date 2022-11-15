@@ -38,7 +38,6 @@
     "@eeacms/volto-hero-block",
     "@eeacms/volto-eea-kitkat",
     "@eeacms/volto-slate-label",
-    "@eeacms/volto-workflow-progress",
     "@eeacms/volto-searchlib",
     "@eeacms/volto-globalsearch",
     "@eeacms/volto-datahub",
@@ -157,7 +156,6 @@
     "@eeacms/volto-statistic-block": "1.0.0",
     "@eeacms/volto-tags-block": "1.0.0",
     "@eeacms/volto-timeline-block": "1.0.0",
-    "@eeacms/volto-workflow-progress": "3.0.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.0.0-alpha.45"
   },
