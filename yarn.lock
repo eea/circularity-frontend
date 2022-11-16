@@ -1637,10 +1637,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-3.0.0.tgz#ca014fb36d090b9c34b3e952d27dd7378ccabc52"
   integrity sha512-zMCce56EFjGLvuWwhQQrkeUXH2yoUnuD7TYa+QtmVs9FjJvvSUVa8Z4tE80SDM7GddvZXOz2ugqn9vS/9nJEgQ==
 
-"@eeacms/volto-timeline-block@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-timeline-block/-/volto-timeline-block-1.0.0.tgz#32766bcefb2236cd9713024fdfb998fa9443a8a6"
-  integrity sha512-CyESTyxkuNzQr++NLQluZ2Gpl70u7GiC60OeBpoMqJKmov6oQ7KVmZKVQ/HmbTTpoc+gARR8aYFG5+m9YsoK9A==
+"@eeacms/volto-timeline-block@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-timeline-block/-/volto-timeline-block-1.0.1.tgz#c4a1a5add3ea8d40d11195059a5d258fadeefc6f"
+  integrity sha512-jDFhonndDY9CIzE7I0JlYUQ6YGbqYCxLdv6Im1rlHQJ/BbbsFY7W2fc2GL3xtr6DrL7zKq676p50hvook4kBww==
 
 "@eeacms/volto-widget-dataprovenance@0.2.0":
   version "0.2.0"
