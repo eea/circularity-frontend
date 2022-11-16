@@ -1445,14 +1445,13 @@
     "@eeacms/volto-widget-toggle" "3.0.0"
     "@eeacms/volto-widgets-view" "4.0.0"
 
-"@eeacms/volto-eea-website-theme@*", "@eeacms/volto-eea-website-theme@1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.1.0.tgz#ef774346ba3bb8faf3bae5fa7c7fded1e1f5dbe6"
-  integrity sha512-QLP7QpGVBtgvL6SGgMkqOvAE5GoaMYC5wM3ogmgqm5vvXb86ctRzLZVjn9UJE5EL/QyqkhwBPA32Rd5h5l02vQ==
+"@eeacms/volto-eea-website-theme@*", "@eeacms/volto-eea-website-theme@1.2.0":
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.2.0.tgz#ede3c0bbc3a1da24e606521b456770b8c12802e1"
+  integrity sha512-kbbshBcyU65+eB2kuiRXGMhmxiAkmzp3m323if7coZjcXQyIt56K4V4n71GTsO/aqA1+zyz5xw1F0AbdJ0FonA==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
-    slate "^0.71.0"
-    slate-react "^0.71.0"
+    volto-subsites "*"
 
 "@eeacms/volto-embed@*":
   version "5.0.0"
@@ -23143,6 +23142,11 @@ vm2@^3.9.8:
   dependencies:
     acorn "^8.7.0"
     acorn-walk "^8.2.0"
+
+volto-subsites@*:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/volto-subsites/-/volto-subsites-4.0.0.tgz#34bbef382b3c77ba2fa4ca56480f779e6f854627"
+  integrity sha512-zT+qYV1ExlQdtJH36khk2Un4bmvX33j2eOw2iSfUJ6aMcUPme3QijzpXEq+Kf4Po7EBZL01rTN574wNFY5utPw==
 
 vt-pbf@^3.1.1:
   version "3.1.3"
