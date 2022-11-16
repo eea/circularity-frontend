@@ -1477,10 +1477,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-group-block/-/volto-group-block-5.0.0.tgz#b003f77c9da0d7e616ca848eb2d5f98d74f47844"
   integrity sha512-lh73suy3nN0VzNlu8c5b3ktTqlAusQL1jOYVlyumd5SSyNOYa3Y47gvX7owELl/o1pHLtOR+M6njs+s23Ek+hQ==
 
-"@eeacms/volto-hero-block@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-1.0.0.tgz#fb54860149dab809aa351ba71ca8ef592016edf5"
-  integrity sha512-H+MScdmq15gQHNYMZx7DPVwfF7BqHK2ukR4NjpSaev/PeHDvwQUbNChHG58PY8VRmYVPdWtlu0hoPsdxMTNbNQ==
+"@eeacms/volto-hero-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-2.0.0.tgz#732246ca02588b46104787b0a2f85511a5dd6fe0"
+  integrity sha512-eeDG2IqxrKdjzMJwiC4NYVQy6HYkH0pxefqx4UK28Tj1UGdOQ1XQBpA+Tb7eXag7iQkcuYRG5fyNM0H6lxByiw==
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
@@ -1671,11 +1671,6 @@
   version "4.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widgets-view/-/volto-widgets-view-4.0.0.tgz#3619d1bc6501c2124b959233a297c9c64fb95413"
   integrity sha512-hbLzVdrQ+SADKPq4iWnTW670eZ0gDZYXxv4yOdjwHwtesSodI0G93IntMyf937DYSNsk7WRLguNeMWiDenIjyA==
-
-"@eeacms/volto-workflow-progress@3.0.0":
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-workflow-progress/-/volto-workflow-progress-3.0.0.tgz#7314c2a96cd19de94b0a7d67c48d0d3ce5842b2f"
-  integrity sha512-bd2wU+BdGueSCUBoe8/lpdhBe4CSsxh+o/6r5aPjRbSC7S5Mnc9nPWJ01UvhyEEQP3SZzwixOFbJYtkP+gVcgw==
 
 "@elastic/react-search-ui-views@1.18.2", "@elastic/react-search-ui-views@^1.9.0":
   version "1.18.2"
