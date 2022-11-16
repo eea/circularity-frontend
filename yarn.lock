@@ -1590,10 +1590,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-footnote/-/volto-slate-footnote-6.0.1.tgz#262255fbef015b0b16695413c7733f2ba28e0807"
   integrity sha512-NEnhzZAT4aaftOyRWgoxeP5y4kQWMGSby5kGBL+rahQoiRacjjDW1PUQbHOZ9EzGpBnrnsbr14BCCGU2P6TDaw==
 
-"@eeacms/volto-slate-label@0.4.3":
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.4.3.tgz#7fefd8844dea1e80cca7a979b9df263650cd1719"
-  integrity sha512-dg8WQD7C+mXYLZRIOERdGfAtYfb4mCWNSMx1u2Nq694AEVkNXMaL5I8ETejs/GIgN5deMMkYbDDfHS3xgE3gvg==
+"@eeacms/volto-slate-label@0.4.4":
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-slate-label/-/volto-slate-label-0.4.4.tgz#207bc346254585ee5d053bb0551e37a12d9e9989"
+  integrity sha512-vC8KDOLQk5kn3v9gW1ywIMJjy/3vgHFMg2dr8RYzCQBXv/N+1Z/v8BRtOYZo3aSkiSdLtJTLUBMV3Zq+9jQpxw==
 
 "@eeacms/volto-slate-metadata-mentions@6.0.0":
   version "6.0.0"
