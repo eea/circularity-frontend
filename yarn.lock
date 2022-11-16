@@ -1340,14 +1340,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-1.0.0.tgz#17ca13de4d7df19353690651f45a118f7b39cf1c"
   integrity sha512-dHXt/7F5U985tPyMCd+aI/oF0ZDX74ZyfeERDgGhyLhbX+4knrIe9Gm/PPyFIteNEk4L8DMOE5t921Vh40WYZA==
 
-"@eeacms/volto-circularity-policy@2.0.1":
-  version "2.0.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.1.tgz#f06a1c33dda4697f7b74ca33d123f2dad65e21ce"
-  integrity sha512-Cd+RrlIl5W3SkNz3RbdPkQ1rvZGnMucuiqWOnr4OmlP8hBCBoo4yvDyJzANLpsdNnzwem5VzAPLizKA1PVqtKA==
+"@eeacms/volto-circularity-policy@2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.2.tgz#96f3b54a5e861fd4bc8028f707d292fe0f2761a0"
+  integrity sha512-4NwPy+FgIjB4Z4mHH8FscT9vnFf8HKrJW//0CkkwVZkOGFP2A/9U6MrqDHehu3vLOu+jN3/YopUUFrUu2qyQ2w==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@eeacms/volto-eea-website-theme" "*"
-    "@plone/scripts" "2.0.0"
 
 "@eeacms/volto-columns-block@5.0.0":
   version "5.0.0"
@@ -2610,19 +2609,6 @@
     chalk "4"
     commander "8.2.0"
     fs-extra "10.1.0"
-    git-url-parse "^11.6.0"
-    mrs-developer "*"
-    pofile "1.0.10"
-    simple-git "3.5.0"
-
-"@plone/scripts@2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@plone/scripts/-/scripts-2.0.0.tgz#e97913972775fac151b990bc26ef3e7b32a1ef3c"
-  integrity sha512-slG3UwDBuSwSBwtYdn6oG/+QWZhoEg4sK7NTdltWLmS76ihd4kyHw53Tm1o9KwvCE8iqkkYyQGIeKhsiM2gY0A==
-  dependencies:
-    babel-plugin-react-intl "5.1.17"
-    babel-preset-razzle "4.2.17"
-    commander "8.2.0"
     git-url-parse "^11.6.0"
     mrs-developer "*"
     pofile "1.0.10"
