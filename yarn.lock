@@ -1526,10 +1526,10 @@
     react-json-editor-ajrm "2.5.13"
     react-plotly.js "2.5.1"
 
-"@eeacms/volto-quote-block@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-1.0.0.tgz#95e41e40773bf477a1ab6a2eb59a6b3769d515e3"
-  integrity sha512-+oKlgzT1OieRDXp6TjzNDP5H93nE15n85oveSxPQVrCnTDsMN8vt9dmVrgUXnVL3mq8tq8KnwPg2bTb6DTbEpQ==
+"@eeacms/volto-quote-block@1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-quote-block/-/volto-quote-block-1.0.1.tgz#5679bcaa7c71448716a49c68e09bf406782787c7"
+  integrity sha512-SUnqY18KU/9ppoIcvCJZYHxuFaDZCLYhjFodqEnlh5ghSKD7ig7u4hilMfO4MWXQKvUpwi0Sz2SXHGW2OKq6yg==
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
@@ -20795,33 +20795,10 @@ slate-react@0.78.1:
     scroll-into-view-if-needed "^2.2.20"
     tiny-invariant "1.0.6"
 
-slate-react@^0.71.0:
-  version "0.71.0"
-  resolved "https://registry.yarnpkg.com/slate-react/-/slate-react-0.71.0.tgz#abc96384777603950a36c09e9a8707d493733541"
-  integrity sha512-UgryclHduQyOUAtoCk/05/4z6CMSURV+WyTwNMJZB10QDVviI78LsLCWstSo0jDlewM8KAX150s3aC2EZwH70w==
-  dependencies:
-    "@types/is-hotkey" "^0.1.1"
-    "@types/lodash" "^4.14.149"
-    direction "^1.0.3"
-    is-hotkey "^0.1.6"
-    is-plain-object "^5.0.0"
-    lodash "^4.17.4"
-    scroll-into-view-if-needed "^2.2.20"
-    tiny-invariant "1.0.6"
-
 slate@0.78.0:
   version "0.78.0"
   resolved "https://registry.yarnpkg.com/slate/-/slate-0.78.0.tgz#cd0328d22b0a99c543987d2a2dd30903bb950ee9"
   integrity sha512-VwQ0RafT3JPf9SFrXI02Dh3S4Iz9en7d1nn50C/LJjjqjfgv+a2ORbgWMdYjhycPYldaxJwcI3OpP9D1g4SXEg==
-  dependencies:
-    immer "^9.0.6"
-    is-plain-object "^5.0.0"
-    tiny-warning "^1.0.3"
-
-slate@^0.71.0:
-  version "0.71.0"
-  resolved "https://registry.yarnpkg.com/slate/-/slate-0.71.0.tgz#37dea4eb05b8e78b76aa15c8a35b0aaf58beb8a1"
-  integrity sha512-DKK7Fk9UzCgN31X7safnJE0i9CbXv9pdnwTyt3NYak9xDFTltv27U+z9NCyi9M5ahqEK2fO5hjjDzPBuPOSRLQ==
   dependencies:
     immer "^9.0.6"
     is-plain-object "^5.0.0"
