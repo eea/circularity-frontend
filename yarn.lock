@@ -1335,10 +1335,10 @@
     "@eeacms/volto-resize-helper" "*"
     react-color "~2.18.1"
 
-"@eeacms/volto-call-to-action-block@1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-1.0.0.tgz#17ca13de4d7df19353690651f45a118f7b39cf1c"
-  integrity sha512-dHXt/7F5U985tPyMCd+aI/oF0ZDX74ZyfeERDgGhyLhbX+4knrIe9Gm/PPyFIteNEk4L8DMOE5t921Vh40WYZA==
+"@eeacms/volto-call-to-action-block@2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-2.0.0.tgz#048b994db77265597aac726834a4feb61f8c030b"
+  integrity sha512-1yUyMAi5iT3+LmLftysanNY4j+fhauhV/kG/SU8XlHLx9+6741cY1z9+zXxFQnxnq/Y3AI9yhvce5rbLtmrNOA==
 
 "@eeacms/volto-circularity-policy@2.0.2":
   version "2.0.2"
