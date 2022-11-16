@@ -153,7 +153,7 @@
     "@eeacms/volto-quote-block": "1.0.0",
     "@eeacms/volto-searchlib": "0.4.2",
     "@eeacms/volto-slate-label": "0.4.3",
-    "@eeacms/volto-statistic-block": "1.0.0",
+    "@eeacms/volto-statistic-block": "1.0.1",
     "@eeacms/volto-tags-block": "1.0.0",
     "@eeacms/volto-timeline-block": "1.0.0",
     "@kitconcept/volto-blocks-grid": "5.1.1",
