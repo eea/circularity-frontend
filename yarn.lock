@@ -1348,10 +1348,10 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-2.0.0.tgz#048b994db77265597aac726834a4feb61f8c030b"
   integrity sha512-1yUyMAi5iT3+LmLftysanNY4j+fhauhV/kG/SU8XlHLx9+6741cY1z9+zXxFQnxnq/Y3AI9yhvce5rbLtmrNOA==
 
-"@eeacms/volto-circularity-policy@2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.4.tgz#8cb7fdf87c17de06f040ffac9b1cd06039bf5ada"
-  integrity sha512-Xloy8Qs9g1g9dsb63Q4UvCJvNf1Fp4aT/PKxuAIWyROqCV2QXh7xrx9LSVOiRdCDXmAln4Jc7DzVxtaOTuIVfA==
+"@eeacms/volto-circularity-policy@2.0.5":
+  version "2.0.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.5.tgz#018431cde12931d5a7d333f9c483830206fcaf38"
+  integrity sha512-ApWZbsOMGKKZDHLPFMJs6UjW473pKldd8wQTaTjNGg5xrfqt0uC+WocMfBqO5+1fZ24RzayMgm6NntGay5Zv6g==
   dependencies:
     "@eeacms/volto-eea-design-system" "*"
     "@eeacms/volto-eea-website-theme" "*"
