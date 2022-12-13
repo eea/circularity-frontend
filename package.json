@@ -154,7 +154,7 @@
     "@eeacms/volto-searchlib": "0.4.6",
     "@eeacms/volto-slate-label": "0.4.4",
     "@eeacms/volto-statistic-block": "1.0.1",
-    "@eeacms/volto-tags-block": "1.0.1",
+    "@eeacms/volto-tags-block": "1.0.2",
     "@eeacms/volto-timeline-block": "1.0.1",
     "@kitconcept/volto-blocks-grid": "5.1.1",
     "@plone/volto": "16.0.0-alpha.46"

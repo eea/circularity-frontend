@@ -1657,6 +1657,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-tags-block/-/volto-tags-block-1.0.1.tgz#ac24d3a02590198be2d61df2fa9a0cb479f163ef"
   integrity sha512-05IHHcHXLG60gJJF83uPtVwxAaWVyMGqYcL4HjgNLXlOsU4bPNEBVG9Z8a0Xkr96K/zdSjyjLh5b0+nVDQROag==
 
+"@eeacms/volto-tags-block@1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-tags-block/-/volto-tags-block-1.0.2.tgz#2ddd0216e4a1e736d77f3387580d785bceb6d6c5"
+  integrity sha512-tOU2usVgJ6FFFBIRKpNktf+dRPOyLVuvzqTE6zxqKEDC30PxdjYHVlYhLMtmjRvApNSQCZNs5a24l4Vscou7LQ==
+
 "@eeacms/volto-taxonomy@3.0.1":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-taxonomy/-/volto-taxonomy-3.0.1.tgz#1c7b822f1c087f7af55f06bc1cabab7eeb299088"
