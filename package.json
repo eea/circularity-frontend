@@ -2,7 +2,7 @@
   "name": "circularity-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.19.0",
+  "version": "0.20.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -174,5 +174,8 @@
     "stylelint-config-idiomatic-order": "8.1.0",
     "stylelint-config-prettier": "8.0.1",
     "stylelint-prettier": "1.1.2"
+  },
+  "resolutions": {
+    "d3-array": "2.12.1"
   }
 }
