@@ -2,7 +2,7 @@
   "name": "circularity-frontend",
   "description": "A Volto-powered Plone frontend",
   "license": "MIT",
-  "version": "0.18.0",
+  "version": "0.19.0",
   "scripts": {
     "start": "razzle start",
     "postinstall": "yarn omelette && yarn patches",
@@ -139,12 +139,11 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/search": "0.2.31",
     "@eeacms/volto-call-to-action-block": "2.0.0",
-    "@eeacms/volto-circularity-policy": "2.0.6",
+    "@eeacms/volto-circularity-policy": "2.0.7",
     "@eeacms/volto-datahub": "1.0.6",
     "@eeacms/volto-description-block": "1.0.1",
-    "@eeacms/volto-eea-design-system": "1.0.0-alpha.3",
+    "@eeacms/volto-eea-design-system": "1.0.0-alpha.9",
     "@eeacms/volto-eea-kitkat": "10.5.0",
     "@eeacms/volto-eea-website-theme": "1.5.0",
     "@eeacms/volto-globalsearch": "1.0.2",
