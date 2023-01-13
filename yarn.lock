@@ -1378,10 +1378,10 @@
     remixicon "2.5.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-eea-kitkat@10.5.0":
-  version "10.5.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.5.0.tgz#adce57447276e5330c49d52ff4bdc1822c5d9853"
-  integrity sha512-kgZPTfFbWypvZXLS+L0Mv+bCH03WoUnMHkaLrxVBlCoxDcOZlw+bnHeBx4KHubyOewgAXNKe8Uy9hnM+Z1eb/g==
+"@eeacms/volto-eea-kitkat@10.5.1":
+  version "10.5.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-10.5.1.tgz#c9a535e4cd9076b75a857eeaa29c2fdef51e5f01"
+  integrity sha512-Yv5KVtV2lkCPza4dBV/aJrk4Q/ZzT+qpHdEoJ8N3DGuzaQCJM0QGoNRMRCvs7cTRRRRILC8s4v/1Wvvm+d4tyQ==
   dependencies:
     "@eeacms/volto-accordion-block" "6.0.0"
     "@eeacms/volto-banner" "3.0.1"
