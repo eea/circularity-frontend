@@ -1367,10 +1367,21 @@
     react-slick "^0.28.1"
     remixicon "2.5.0"
 
-"@eeacms/volto-eea-design-system@1.0.0-alpha.9", "@eeacms/volto-eea-design-system@^1.0.0-alpha.8":
+"@eeacms/volto-eea-design-system@1.0.0-alpha.9":
   version "1.0.0-alpha.9"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.9.tgz#06ccf44317c96b4677be14a39a783024dc9bdcac"
   integrity sha512-HLrwSy8LaP4sZk2xULIV93pvHDzeOCNn9tAGC5Eow1bmsoElTyx4LXJHf5ROX6/TTHznFo4dylDqdH640F9pJw==
+  dependencies:
+    "@eeacms/volto-corsproxy" "*"
+    react-countup "^6.3.0"
+    react-slick "^0.28.1"
+    remixicon "2.5.0"
+    slick-carousel "^1.8.1"
+
+"@eeacms/volto-eea-design-system@^1.0.0-alpha.11":
+  version "1.0.0-alpha.11"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.11.tgz#3a5143a54e428f3865a02480ecd17431b993f1af"
+  integrity sha512-uJLkFUbyVa1QSqXUJ/BGT3XlCvj8ODDmcIw7FzEgqCCkspHAGjOR8lMOobPTJUugScue1F2OwW5GsolJmZu5yQ==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
@@ -1419,12 +1430,12 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-eea-website-theme@1.5.1":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.5.1.tgz#a832ffb8c2df0f74f0e9a25e53085b7b9462e6ac"
-  integrity sha512-OLL2Fwvzx9lN6nvd6GIGA23Ftmc7u0geZBFWFzHJioWi1pPigHbjXJ9rLDQvn5i49iizLli/mbITtsXENVRPjw==
+"@eeacms/volto-eea-website-theme@1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.6.0.tgz#4bb0e6329a18b82b527c70195db83b84a14c1b80"
+  integrity sha512-mx2jPrccEl/fNqj5O0tF6hx//HWLHtcWN4M63ubZs0hrrcSww2AFCjvQa8lJEh33WQ6JBmn+LAuDyMU8r2rpnQ==
   dependencies:
-    "@eeacms/volto-eea-design-system" "^1.0.0-alpha.8"
+    "@eeacms/volto-eea-design-system" "^1.0.0-alpha.11"
     volto-subsites "*"
 
 "@eeacms/volto-embed@*":
