@@ -1304,6 +1304,11 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-3.0.0.tgz#0723187cee00ae03aac8da57eb92a513832ca564"
   integrity sha512-7JrmowlbXueb+xGaD/9sGTEVk3hAvdXVOARIYjo/V7+L21LbV+sepnumXfbrpXCCwXJK3EDqk/mPnX/dFnei+g==
 
+"@eeacms/volto-call-to-action-block@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-3.0.1.tgz#03e985bd0cbce75ae094ce99afb4f5dfb3c9df72"
+  integrity sha512-CM3ygiKipwS4ViB5PJqgzY8Tf4mabt4cl6PSRgCpARSynWTC/ZeavXWwolx7yd2e20e0f1HFumMx2Ft9bvefrQ==
+
 "@eeacms/volto-circularity-policy@2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.7.tgz#defde68bdb094ba603d71dc259ddf62c6d792f69"
