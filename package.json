@@ -139,7 +139,7 @@
     "node": "^12 || ^14 || ^16"
   },
   "dependencies": {
-    "@eeacms/volto-call-to-action-block": "2.0.0",
+    "@eeacms/volto-call-to-action-block": "3.0.0",
     "@eeacms/volto-circularity-policy": "2.0.7",
     "@eeacms/volto-datahub": "1.0.10",
     "@eeacms/volto-description-block": "1.0.1",
