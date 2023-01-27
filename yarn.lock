@@ -1472,6 +1472,13 @@
   dependencies:
     "@eeacms/volto-object-widget" "*"
 
+"@eeacms/volto-hero-block@3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-hero-block/-/volto-hero-block-3.0.1.tgz#ddc0280a0a0818899cd8ba5495672c97fa9b5c53"
+  integrity sha512-JjOaMu26b34DzKHSC5D0Oa3oyd61ScfJ6QJyvB+M95Gi4WwR+JqbEtr0XrYeg63vYO3lhLyg/9DoCS7YoR6LLQ==
+  dependencies:
+    "@eeacms/volto-object-widget" "*"
+
 "@eeacms/volto-listing-block@*", "@eeacms/volto-listing-block@2.5.0":
   version "2.5.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-listing-block/-/volto-listing-block-2.5.0.tgz#8075f837442e0caf00c26ea5a8cd0bf9c0272aba"
