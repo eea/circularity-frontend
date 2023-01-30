@@ -1430,10 +1430,10 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-eea-website-theme@1.6.2":
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.6.2.tgz#dd3443a6b8d621d2990b2ba30e5f42699667c921"
-  integrity sha512-iQyzl90TZVfwYkSpZVA8/T3e/XmKEuhCWYwyBud0JNXgf5Ei7ZJicJW7qWcJb9B978RGlTIYL4FxKL6S9bTvMw==
+"@eeacms/volto-eea-website-theme@1.6.3":
+  version "1.6.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.6.3.tgz#ecf142d87a92239c0ef62114a6985798c0aa93cd"
+  integrity sha512-N7MsL1dOyeUakVUS8R+eqWgMyYiXBk4lW7fDwnhAnf6CVD5zUog1gB/9kVJSn/1+Iz+BV3xUvyke1TZSpKXJew==
   dependencies:
     "@eeacms/volto-eea-design-system" "^1.0.0-alpha.12"
     volto-subsites "*"
