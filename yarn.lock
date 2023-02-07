@@ -1384,10 +1384,10 @@
     remixicon "2.5.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-eea-design-system@^1.0.0-alpha.12":
-  version "1.0.0-alpha.12"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.12.tgz#d8e41d58221abb9986a6d5bb244a92877b264240"
-  integrity sha512-2+0ZosBKX8LjhiD5atZpM4PcG+bV+WeUcSU8mCvFLoFrM4YuRufovTiMyi1pZM+7NY4Goz8An+fVUTPCUBSRnw==
+"@eeacms/volto-eea-design-system@^1.0.0-alpha.15":
+  version "1.0.0-alpha.15"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.15.tgz#5d3aa02c343c126ea9b526b98e3d0d3203f22778"
+  integrity sha512-j3uw4pA4zH+ocr/WqvRU8Oouv/mPapUhhrz4K5r/ahEw2cIaluXmjwo4/p3EU/R33NgOcgdNEwcJXKvnNaS7bw==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
@@ -1436,12 +1436,12 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-eea-website-theme@1.6.4":
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.6.4.tgz#c41f9aceb8c507a7c80aa6936b3caf9fe4ad8035"
-  integrity sha512-Z0bAxxNJ3tsP4J/5mRPbR8F1kX3J2rQjdy9w93472H2Dfo9opu18kWeFQYxjUlhxvvScwFsqKT1LatKDCw6egA==
+"@eeacms/volto-eea-website-theme@1.7.0":
+  version "1.7.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.7.0.tgz#7723addbaae307637a61c6e55a68a089d5b26e10"
+  integrity sha512-8NhdZ1upceiAH++x5TutSr1hVcGMK8o0d6CYKb015devKKEN4or2JmYQmK3+i8F0W6hizS/1SjNBbYi1EcgKbg==
   dependencies:
-    "@eeacms/volto-eea-design-system" "^1.0.0-alpha.12"
+    "@eeacms/volto-eea-design-system" "^1.0.0-alpha.15"
     volto-subsites "*"
 
 "@eeacms/volto-embed@*":
