@@ -1304,6 +1304,13 @@
   resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-3.0.1.tgz#03e985bd0cbce75ae094ce99afb4f5dfb3c9df72"
   integrity sha512-CM3ygiKipwS4ViB5PJqgzY8Tf4mabt4cl6PSRgCpARSynWTC/ZeavXWwolx7yd2e20e0f1HFumMx2Ft9bvefrQ==
 
+"@eeacms/volto-call-to-action-block@4.0.0":
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-call-to-action-block/-/volto-call-to-action-block-4.0.0.tgz#5c3f44ca465280a957fb1557a9dffbd10a5f4058"
+  integrity sha512-fsN03JNKGUyaBhNP0kyu6Qax9g//npMlkwza03q6kyiem0yuOPg2kdGGx35zgHUSF9NF9aVzgL5EjTLD/8EdJQ==
+  dependencies:
+    "@eeacms/volto-widget-theme-picker" "^1.0.1"
+
 "@eeacms/volto-circularity-policy@2.0.7":
   version "2.0.7"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-circularity-policy/-/volto-circularity-policy-2.0.7.tgz#defde68bdb094ba603d71dc259ddf62c6d792f69"
@@ -1644,6 +1651,11 @@
   version "5.0.1"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-temporal-coverage/-/volto-widget-temporal-coverage-5.0.1.tgz#dec62a152fc2c7e9a7657e7fa49880cf82dc114a"
   integrity sha512-dMiIfvxSetIOgJIGjMCjudIPkEimkMTl5AUPMkx5MzdqE0KecV0twIlorJL3es2CwhRcKBmKk3RjC+L+70zyHw==
+
+"@eeacms/volto-widget-theme-picker@^1.0.1":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-widget-theme-picker/-/volto-widget-theme-picker-1.0.2.tgz#8ecfe9eeb5de775dfb2f85581c4324183d9adec1"
+  integrity sha512-bLP9TYx3tLaLc83aqKrKAPl01M+71duBL54fo2GadFcG92ObIiQTq5DBfstxU3hag6h8+KlXy6ZOY0HlCoeAIQ==
 
 "@eeacms/volto-widget-toggle@3.0.1":
   version "3.0.1"
