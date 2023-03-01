@@ -1352,10 +1352,10 @@
     react-visibility-sensor "5.1.1"
     sanitize-html "^2.3.3"
 
-"@eeacms/volto-datahub@1.0.14":
-  version "1.0.14"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-1.0.14.tgz#f517fa903ac10cbda583e3e0e5faec7f561609c4"
-  integrity sha512-dXQQlekcMnSiS8CtFwpVbOeg3Tw7FUdl/1mXjph2zgC8b7dmDI9b9uRkX4KAE5/1AlEuOOxsmeIpZXSsG5ngLw==
+"@eeacms/volto-datahub@1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-datahub/-/volto-datahub-1.0.15.tgz#1ae0f7d4b0e2985ed4e03afb17c46031dfda91cb"
+  integrity sha512-EHR7RI0FIXu7ZfoiLesAnn54OqZ7q3G5UxcgRBNxIfPjroj0wiPM8TQiM0XzgRygRvQzjePrl6JcQ4X1bytduw==
   dependencies:
     "@eeacms/volto-globalsearch" "*"
     "@eeacms/volto-listing-block" "*"
