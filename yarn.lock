@@ -1463,10 +1463,10 @@
     "@eeacms/volto-datablocks" "*"
     react-visibility-sensor "5.1.1"
 
-"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@1.0.13":
-  version "1.0.13"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-1.0.13.tgz#e32ff14a2fb8ccd71b67be118c656244b02622c8"
-  integrity sha512-209mbNaUKdPeVfK/ckcNOCl7qsO8xY/MIyWz2ZazE2Q6LinZXoe4ur4Mk/TlpvDOE5cxUzMnfula+pDD/YgVtQ==
+"@eeacms/volto-globalsearch@*", "@eeacms/volto-globalsearch@1.0.14":
+  version "1.0.14"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-globalsearch/-/volto-globalsearch-1.0.14.tgz#75d654b77c026aa82e239391afb37c37ad0849cb"
+  integrity sha512-9FkrzafCRoRPyQ07mtWXUIfUtXj0XesE4KQe9dIMC3fbYT5KpVLOefI0mXjhUcbrSsNRlQjkiwSh0ltjvthaLQ==
   dependencies:
     "@eeacms/volto-listing-block" "*"
     "@eeacms/volto-searchlib" "*"
