@@ -1391,13 +1391,14 @@
     remixicon "2.5.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-eea-design-system@^1.0.0-alpha.15":
-  version "1.0.0-alpha.15"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-alpha.15.tgz#5d3aa02c343c126ea9b526b98e3d0d3203f22778"
-  integrity sha512-j3uw4pA4zH+ocr/WqvRU8Oouv/mPapUhhrz4K5r/ahEw2cIaluXmjwo4/p3EU/R33NgOcgdNEwcJXKvnNaS7bw==
+"@eeacms/volto-eea-design-system@^1.0.0-beta.5":
+  version "1.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-beta.5.tgz#67c234cee3d845da8d399f98716116c8faec3afe"
+  integrity sha512-70+HutEbJGCr+HTcEAz+nDl5VIhJ8uunDx8QqsBy3jkJ3lWZtJDJLRwvNDoCWPnZq/hpVj9au0dLY+Mxbb/S9A==
   dependencies:
     "@eeacms/volto-corsproxy" "*"
     react-countup "^6.3.0"
+    react-lazy-load-image-component "1.5.6"
     react-slick "^0.28.1"
     remixicon "2.5.0"
     slick-carousel "^1.8.1"
@@ -1445,12 +1446,12 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-eea-website-theme@1.9.2":
-  version "1.9.2"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.9.2.tgz#175cd6e6cf4652d6a37ca3b38637ba50ce17ce2f"
-  integrity sha512-l7jwGi42EBAlVRCzeyQMO9qhNJ4yEOYyPjT1e1cZLG5bk7rkYlRKxegTOiCFsMignUrQH1xfFk2PMkgi6UxJlA==
+"@eeacms/volto-eea-website-theme@1.9.3":
+  version "1.9.3"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.9.3.tgz#45159933c67d8a0a0d3ea53cd5591b6293f9e5d9"
+  integrity sha512-1fUbTnxnD5CIovU8Mk8krKsDwc+kQl7QfKCYY1z70hRrc/CQbc4IqkJLZmMhwqnWpGSkYR9NRTIiE2doAuporg==
   dependencies:
-    "@eeacms/volto-eea-design-system" "^1.0.0-alpha.15"
+    "@eeacms/volto-eea-design-system" "^1.0.0-beta.5"
     volto-subsites "*"
 
 "@eeacms/volto-embed@*":
@@ -18889,7 +18890,7 @@ react-json-editor-ajrm@2.5.13:
   dependencies:
     "@babel/runtime" "^7.0.0-rc.0"
 
-react-lazy-load-image-component@^1.4.0:
+react-lazy-load-image-component@1.5.6, react-lazy-load-image-component@^1.4.0:
   version "1.5.6"
   resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.5.6.tgz#a4b84257be21b1825680b4e158d167c08aeda5ff"
   integrity sha512-M0jeJtOlTHgThOfgYM9krSqYbR6ShxROy/KVankwbw9/amPKG1t5GSGN1sei6Cyu8+QJVuyAUvQ+LFtCVTTlKw==
