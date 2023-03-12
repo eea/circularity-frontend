@@ -1391,18 +1391,6 @@
     remixicon "2.5.0"
     slick-carousel "^1.8.1"
 
-"@eeacms/volto-eea-design-system@^1.0.0-beta.5":
-  version "1.0.0-beta.5"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-design-system/-/volto-eea-design-system-1.0.0-beta.5.tgz#67c234cee3d845da8d399f98716116c8faec3afe"
-  integrity sha512-70+HutEbJGCr+HTcEAz+nDl5VIhJ8uunDx8QqsBy3jkJ3lWZtJDJLRwvNDoCWPnZq/hpVj9au0dLY+Mxbb/S9A==
-  dependencies:
-    "@eeacms/volto-corsproxy" "*"
-    react-countup "^6.3.0"
-    react-lazy-load-image-component "1.5.6"
-    react-slick "^0.28.1"
-    remixicon "2.5.0"
-    slick-carousel "^1.8.1"
-
 "@eeacms/volto-eea-kitkat@13.0.0":
   version "13.0.0"
   resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-kitkat/-/volto-eea-kitkat-13.0.0.tgz#1d1b1cf7a8811816f5d4f00d816562d1472b2367"
@@ -1446,12 +1434,12 @@
     "@kitconcept/volto-blocks-grid" "5.1.1"
     "@plone-collective/volto-sentry" "0.3.0"
 
-"@eeacms/volto-eea-website-theme@1.10.0":
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.10.0.tgz#4a530e04d8dbed88d70ae46ecb3c16111f7e94fc"
-  integrity sha512-R8djsSKHyVEX3EeD4SWcne3nQzpWQGR67WQp4TELYc769reeCrtdkIMfM3d/EvspXZtabXM6Xiht2imEtMRlxg==
+"@eeacms/volto-eea-website-theme@1.11.0":
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/@eeacms/volto-eea-website-theme/-/volto-eea-website-theme-1.11.0.tgz#f791a5c7d168b7578f51f3a2cdf5f97f1a23f85a"
+  integrity sha512-ENBnPi/v1rcTMtLQYOmgwYDf/f7LTrtoIar9iPj7j9/EVk4fzOcYXWH2ex1lLT2PMCCh9dYIezbI45+H2ci0eA==
   dependencies:
-    "@eeacms/volto-eea-design-system" "^1.0.0-beta.5"
+    "@eeacms/volto-eea-design-system" "*"
     volto-subsites "*"
 
 "@eeacms/volto-embed@*":
@@ -18890,7 +18878,7 @@ react-json-editor-ajrm@2.5.13:
   dependencies:
     "@babel/runtime" "^7.0.0-rc.0"
 
-react-lazy-load-image-component@1.5.6, react-lazy-load-image-component@^1.4.0:
+react-lazy-load-image-component@^1.4.0:
   version "1.5.6"
   resolved "https://registry.yarnpkg.com/react-lazy-load-image-component/-/react-lazy-load-image-component-1.5.6.tgz#a4b84257be21b1825680b4e158d167c08aeda5ff"
   integrity sha512-M0jeJtOlTHgThOfgYM9krSqYbR6ShxROy/KVankwbw9/amPKG1t5GSGN1sei6Cyu8+QJVuyAUvQ+LFtCVTTlKw==
