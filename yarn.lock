@@ -109,15 +109,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/generator@npm:^7.21.1":
-  version: 7.21.1
-  resolution: "@babel/generator@npm:7.21.1"
+"@babel/generator@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/generator@npm:7.21.3"
   dependencies:
-    "@babel/types": ^7.21.0
+    "@babel/types": ^7.21.3
     "@jridgewell/gen-mapping": ^0.3.2
     "@jridgewell/trace-mapping": ^0.3.17
     jsesc: ^2.5.1
-  checksum: 69085a211ff91a7a608ee3f86e6fcb9cf5e724b756d792a713b0c328a671cd3e423e1ef1b12533f366baba0616caffe0a7ba9d328727eab484de5961badbef00
+  checksum: be6bb5a32a0273260b91210d4137b7b5da148a2db8dd324654275cb0af865ae59de5e1536e93ac83423b2586415059e1c24cf94293026755cf995757238da749
   languageName: node
   linkType: hard
 
@@ -440,12 +440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/parser@npm:^7.21.2":
-  version: 7.21.2
-  resolution: "@babel/parser@npm:7.21.2"
+"@babel/parser@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/parser@npm:7.21.3"
   bin:
     parser: ./bin/babel-parser.js
-  checksum: e2b89de2c63d4cdd2cafeaea34f389bba729727eec7a8728f736bc472a59396059e3e9fe322c9bed8fd126d201fb609712949dc8783f4cae4806acd9a73da6ff
+  checksum: a71e6456a1260c2a943736b56cc0acdf5f2a53c6c79e545f56618967e51f9b710d1d3359264e7c979313a7153741b1d95ad8860834cc2ab4ce4f428b13cc07be
   languageName: node
   linkType: hard
 
@@ -1683,20 +1683,20 @@ __metadata:
   linkType: hard
 
 "@babel/traverse@npm:^7.4.5":
-  version: 7.21.2
-  resolution: "@babel/traverse@npm:7.21.2"
+  version: 7.21.3
+  resolution: "@babel/traverse@npm:7.21.3"
   dependencies:
     "@babel/code-frame": ^7.18.6
-    "@babel/generator": ^7.21.1
+    "@babel/generator": ^7.21.3
     "@babel/helper-environment-visitor": ^7.18.9
     "@babel/helper-function-name": ^7.21.0
     "@babel/helper-hoist-variables": ^7.18.6
     "@babel/helper-split-export-declaration": ^7.18.6
-    "@babel/parser": ^7.21.2
-    "@babel/types": ^7.21.2
+    "@babel/parser": ^7.21.3
+    "@babel/types": ^7.21.3
     debug: ^4.1.0
     globals: ^11.1.0
-  checksum: d851e3f5cfbdc2fac037a014eae7b0707709de50f7d2fbb82ffbf932d3eeba90a77431529371d6e544f8faaf8c6540eeb18fdd8d1c6fa2b61acea0fb47e18d4b
+  checksum: 0af5bcd47a2fc501592b90ac1feae9d449afb9ab0772a4f6e68230f4cd3a475795d538c1de3f880fe3414b6c2820bac84d02c6549eea796f39d74a603717447b
   languageName: node
   linkType: hard
 
@@ -1722,14 +1722,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/types@npm:^7.21.0, @babel/types@npm:^7.21.2":
-  version: 7.21.2
-  resolution: "@babel/types@npm:7.21.2"
+"@babel/types@npm:^7.21.0, @babel/types@npm:^7.21.3":
+  version: 7.21.3
+  resolution: "@babel/types@npm:7.21.3"
   dependencies:
     "@babel/helper-string-parser": ^7.19.4
     "@babel/helper-validator-identifier": ^7.19.1
     to-fast-properties: ^2.0.0
-  checksum: a45a52acde139e575502c6de42c994bdbe262bafcb92ae9381fb54cdf1a3672149086843fda655c7683ce9806e998fd002bbe878fa44984498d0fdc7935ce7ff
+  checksum: b750274718ba9cefd0b81836c464009bb6ba339fccce51b9baff497a0a2d96c044c61dc90cf203cec0adc770454b53a9681c3f7716883c802b85ab84c365ba35
   languageName: node
   linkType: hard
 
@@ -1964,13 +1964,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-datahub@npm:1.0.19":
-  version: 1.0.19
-  resolution: "@eeacms/volto-datahub@npm:1.0.19"
+"@eeacms/volto-datahub@npm:1.0.20":
+  version: 1.0.20
+  resolution: "@eeacms/volto-datahub@npm:1.0.20"
   dependencies:
     "@eeacms/volto-globalsearch": "*"
     "@eeacms/volto-listing-block": "*"
-  checksum: d39d9c03a0e0ed695d271e5c57ebeeb3c1e48100f61be5ce123c1815acd2c71054b54da753b55ca9c6c733be122cd9e2a7421a90c3c6ebf62d7b38a9f4a18608
+  checksum: 030bb0b5965b596c75f2ad2069c61b18b8c2b8555607a2dc3a81e56d106ef80e8753e489942670bbcb5ebf766d896e7929e54dd96847a2c59060bc0e12d576cb
   languageName: node
   linkType: hard
 
@@ -2069,17 +2069,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-globalsearch@npm:*":
-  version: 1.0.14
-  resolution: "@eeacms/volto-globalsearch@npm:1.0.14"
-  dependencies:
-    "@eeacms/volto-listing-block": "*"
-    "@eeacms/volto-searchlib": "*"
-  checksum: 901f1d9d555d33c5276e137e21b77ba5d059764afc9cdc92066441205476f0966280d215b7637110be598de31347a58a3444f981234f191749a092848c361cbc
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-globalsearch@npm:1.0.15":
+"@eeacms/volto-globalsearch@npm:*, @eeacms/volto-globalsearch@npm:1.0.15":
   version: 1.0.15
   resolution: "@eeacms/volto-globalsearch@npm:1.0.15"
   dependencies:
@@ -2177,9 +2167,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eeacms/volto-searchlib@npm:*":
-  version: 0.4.29
-  resolution: "@eeacms/volto-searchlib@npm:0.4.29"
+"@eeacms/volto-searchlib@npm:*, @eeacms/volto-searchlib@npm:0.4.31":
+  version: 0.4.31
+  resolution: "@eeacms/volto-searchlib@npm:0.4.31"
   dependencies:
     "@eeacms/volto-eea-design-system": "*"
     "@elastic/react-search-ui": ^1.9.0
@@ -2217,51 +2207,7 @@ __metadata:
     superagent: 3.8.2
     svg-loader: 0.0.2
     use-deep-compare-effect: 1.8.1
-  checksum: e97563342948581138df18bcd3d511113540c34857ea0193dbfc29d0eff6af25771c7c6668ff0d6c87cd5f72bea7d9d8b0b228dbae51e5dd8705a366bbe6d551
-  languageName: node
-  linkType: hard
-
-"@eeacms/volto-searchlib@npm:0.4.30":
-  version: 0.4.30
-  resolution: "@eeacms/volto-searchlib@npm:0.4.30"
-  dependencies:
-    "@eeacms/volto-eea-design-system": "*"
-    "@elastic/react-search-ui": ^1.9.0
-    "@elastic/react-search-ui-views": ^1.9.0
-    "@elastic/search-ui": ^1.9.0
-    "@visx/group": ^1.7.0
-    "@visx/responsive": ^1.10.1
-    "@visx/scale": ^1.11.1
-    "@visx/shape": ^1.12.0
-    "@visx/tooltip": ^1.7.2
-    classnames: ^2.2.6
-    csv-stringify: ^5.6.5
-    d3-array: ^2.12.1
-    d3-scale: ^3.3.0
-    deep-equal: ^2.0.5
-    downshift: ^3.4.8
-    elasticsearch: 16.7.3
-    fast-deep-equal: ^3.1.3
-    http-proxy-middleware: ^2.0.1
-    jotai: ^1.6.0
-    lodash: 4.17.21
-    lodash.clonedeep: ^4.5.0
-    lodash.isfunction: ^3.0.9
-    lodash.uniq: ^4.5.0
-    luxon: ^1.22.0
-    node-fetch: ^2.6.1
-    re-resizable: ^6.9.0
-    react-compound-slider: ^3.4.0
-    react-masonry-component: 6.3.0
-    react-motion: ^0.5.2
-    react-speech-recognition: ^3.8.2
-    react-toastify: 5.4.1
-    redux: 4.1.0
-    semantic-ui-react: 2.0.3
-    superagent: 3.8.2
-    svg-loader: 0.0.2
-    use-deep-compare-effect: 1.8.1
-  checksum: 3a7aabeda334551d2ce3938080e8130191608564d6711d6017f405d23045062e4365160a15c2d37fd311849fd997dcbc300e46766ff88c5370da61209c3d32fb
+  checksum: 0c5e787afc46bb09d18e1d4d776a6cbef806eb836640dba7a50eb3e3609d7e390d5a13f5fc73fcce7a202bc42e1e5b331c3d9e4df1c0e5ebd6b98ea7a36c51ed
   languageName: node
   linkType: hard
 
@@ -2795,9 +2741,9 @@ __metadata:
   linkType: hard
 
 "@floating-ui/core@npm:^1.2.3":
-  version: 1.2.3
-  resolution: "@floating-ui/core@npm:1.2.3"
-  checksum: dbaff1b454314facc62d3e70955e7ce4f8ccd8530d08b8c508df588ea775674d3d4048de6c1424074f0659f7dc88bbda8ff7a5c8e17e86daa5fad34e40c7f7d3
+  version: 1.2.4
+  resolution: "@floating-ui/core@npm:1.2.4"
+  checksum: 1c163ea1804e2b0a28fda6e32efed0e242d0db8081fd24aab9d1cbb100f94a558709231c483bf74bf09a9204ea6e7845813d43b5322ceb6ee63285308f68f65b
   languageName: node
   linkType: hard
 
@@ -9600,13 +9546,13 @@ __metadata:
   resolution: "circularity-frontend@workspace:."
   dependencies:
     "@eeacms/volto-circularity-policy": 2.0.7
-    "@eeacms/volto-datahub": 1.0.19
+    "@eeacms/volto-datahub": 1.0.20
     "@eeacms/volto-eea-design-system": 1.0.1
     "@eeacms/volto-eea-kitkat": 13.0.0
     "@eeacms/volto-eea-website-theme": 1.11.0
     "@eeacms/volto-globalsearch": 1.0.15
     "@eeacms/volto-plotlycharts": 5.0.8
-    "@eeacms/volto-searchlib": 0.4.30
+    "@eeacms/volto-searchlib": 0.4.31
     "@plone/scripts": ^2.1.2
     "@plone/volto": 16.16.0
     "@storybook/addon-actions": ^6.3.0
