@@ -135,7 +135,7 @@
     "@eeacms/volto-eea-website-theme": "1.11.1",
     "@eeacms/volto-globalsearch": "1.0.15",
     "@eeacms/volto-plotlycharts": "5.0.8",
-    "@eeacms/volto-searchlib": "0.4.32",
+    "@eeacms/volto-searchlib": "0.4.33",
     "@plone/volto": "16.16.0"
   },
   "devDependencies": {
