@@ -134,7 +134,7 @@
     "@eeacms/volto-eea-kitkat": "15.2.1",
     "@eeacms/volto-eea-website-theme": "1.14.0",
     "@eeacms/volto-globalsearch": "1.0.15",
-    "@eeacms/volto-plotlycharts": "5.0.8",
+    "@eeacms/volto-plotlycharts": "5.1.0",
     "@eeacms/volto-searchlib": "0.5.2",
     "@plone/volto": "16.16.0"
   },
